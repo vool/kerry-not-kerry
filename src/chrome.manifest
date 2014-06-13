@@ -1,0 +1,3 @@
+content	kerry-not-kerry	chrome/content/	contentaccessible=yes
+
+overlay	chrome://browser/content/browser.xul	chrome://kerry-not-kerry/content/main.xul
