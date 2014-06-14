@@ -3,15 +3,16 @@
   <RDF:Description about="urn:mozilla:install-manifest">
 
     <!-- GUID and type -->
-    <em:id>kerry-not-kerry@github.com</em:id>
+    <em:id>kerry-not-kerry@vool.ie</em:id>
     <em:type>2</em:type>
 
     <!-- Extension details -->
     <em:name>Kerry not Kerry</em:name>
-    <em:description>County Kerry not that other fella.</em:description>
+    <em:description>The County of Kerry not that other fella.</em:description>
     <em:creator>Keith</em:creator>
     <em:developer>Keith</em:developer>
     <em:homepageURL>https://github.com/vool/kerry-not-kerry</em:homepageURL>
+    <em:iconURL>chrome://kerry-not-kerry/content/icons/kerry-not-kerry64.png</em:iconURL>
 
     <!-- Current version -->
     <em:version>1.0</em:version>
