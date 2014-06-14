@@ -1,3 +1,5 @@
+![Image of Yaktocat](https://github.com/vool/kerry-not-kerry/blob/master/src/chrome/content/icons/kerry-not-kerry64.png?raw=true)
+
 # Kerry not Kerry
 
 
