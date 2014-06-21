@@ -1,4 +1,4 @@
-![Image of Yaktocat](https://github.com/vool/kerry-not-kerry/blob/master/src/chrome/content/icons/kerry-not-kerry64.png?raw=true)
+![Kerry not Kerry Image](https://github.com/vool/kerry-not-kerry/blob/master/src/chrome/content/icons/kerry-not-kerry64.png?raw=true)
 
 # Kerry not Kerry
 
@@ -13,6 +13,14 @@ For Mr. Williams...
 ## TODO
 
 Replace images...
+
+## Packaging
+
+You can download the script I use to package .xpi's here -> [xpimaker](https://gist.github.com/vool/cd48c7bf96af141638bd#file-xpimaker-sh)
+then you can run:
+
+    ./xpimaker.sh kerry-not-kerry src
+
 
 ## Installing
 
