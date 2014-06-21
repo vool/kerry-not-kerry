@@ -25,28 +25,23 @@
                 handleText(node);
                 break;
         }	
+        
     }
     
     function handleText(textNode)
     {
         var v = textNode.nodeValue;
     
-        v = v.replace(/\bUS Secretary of State John Kerry\b/g, "The Kingdom");
-        v = v.replace(/\bUS Secretary of State John F. Kerry \b/g, "The Kingdom");
-        v = v.replace(/\bU.S. Secretary of State John  John F. Kerry \b/g, "County Kerry");
-        v = v.replace(/\bUS Secretary John Kerry \b/g, "County Kerry");
-        v = v.replace(/\bU.S. Secretary of State John Kerry\b/g, "The Glorious Kingdom of Kerry");
+        v = v.replace(/\bU[.]?S[.]? Secretary of State John Kerry\b/g, "The Kingdom");
+        v = v.replace(/\bU[.]?S[.]? Secretary of State John F[.]? Kerry\b/g, "The Kingdom");
+        v = v.replace(/\bU[.]?S[.]? Secretary John Kerry\b/g, "County Kerry");
         v = v.replace(/\bSecretary of State John Kerry\b/g, "The Glorious Kingdom of Kerry");
-        v = v.replace(/\bSecretary of State John Kerry\b/g, "The Kingdom of Kerry");
         v = v.replace(/\bSecretary Kerry\b/g, "Co. Kerry");
         v = v.replace(/\bSenator John Kerry\b/g, "The County Kerry");
-        v = v.replace(/\bJohn Kerry\b/g, "County Kerry");
-        v = v.replace(/\bjohn kerry\b/g, "County Kerry");
-        v = v.replace(/\bMr Kerry\b/g, "County Kerry");
-        v = v.replace(/\bMister Kerry\b/g, "County Kerry");     
-        
-        
-
+        v = v.replace(/\bJohn Kerry\b/gi, "County Kerry");
+        v = v.replace(/\bMr[.]? Kerry\b/g, "County Kerry");
+        v = v.replace(/\bMister Kerry\b/g, "County Kerry");
+        v = v.replace(/\bJohn (Forbes|F[.]?) Kerry\b/g, "County Kerry");    
     
         textNode.nodeValue = v;
     }
