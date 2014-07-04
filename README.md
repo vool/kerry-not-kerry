@@ -21,10 +21,13 @@ then you can run:
 
 ## Some examples
 
-[http://news.yahoo.com/russia-ukraine-kerry-putin-rubio-164359312.html]
-[http://www.theguardian.com/world/2014/jul/01/john-kerry-undocumented-children-deported-honduras-guatemala]
-[http://www.businessinsider.com/john-kerry-warns-against-vengeance-after-murder-of-palestinian-teen-2014-7]
-[http://www.bbc.com/news/blogs-echochambers-28114865]
+http://news.yahoo.com/russia-ukraine-kerry-putin-rubio-164359312.html
+
+http://www.theguardian.com/world/2014/jul/01/john-kerry-undocumented-children-deported-honduras-guatemala
+
+http://www.businessinsider.com/john-kerry-warns-against-vengeance-after-murder-of-palestinian-teen-2014-7
+
+http://www.bbc.com/news/blogs-echochambers-28114865
 
 ## Installing
 
