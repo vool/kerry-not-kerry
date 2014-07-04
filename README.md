@@ -10,9 +10,6 @@ For Mr. Williams...
 
 > I'm tempted to edit one of these articles so that the county Kerry replaces John Kerry and any picture of John Kerry is replaced with a picture of the kerry football team or a map of kerry. I've a feeling that it is the sort of pointless shenanigans that you would be into too. Any idea what we could do with one of these edited articles for a bit of entertainment?
 
-## TODO
-
-Replace images...
 
 ## Packaging
 
@@ -21,6 +18,13 @@ then you can run:
 
     ./xpimaker.sh kerry-not-kerry src
 
+
+## Some examples
+
+[http://news.yahoo.com/russia-ukraine-kerry-putin-rubio-164359312.html]
+[http://www.theguardian.com/world/2014/jul/01/john-kerry-undocumented-children-deported-honduras-guatemala]
+[http://www.businessinsider.com/john-kerry-warns-against-vengeance-after-murder-of-palestinian-teen-2014-7]
+[http://www.bbc.com/news/blogs-echochambers-28114865]
 
 ## Installing
 
@@ -31,6 +35,6 @@ then you can run:
 
 ## Credits
 
-Much based on the work of Dave Random's [cloud-to-butt-mozilla](https://github.com/DaveRandom/cloud-to-butt-mozilla)  and Steven Frank's [cloud-to-butt](https://github.com/panicsteve/cloud-to-butt) Chrome extension.
+Some code pinched from Dave Random's [cloud-to-butt-mozilla](https://github.com/DaveRandom/cloud-to-butt-mozilla).
 
 
